@@ -5,6 +5,7 @@
   "version": "0.0.0",
   "keywords": [],
   "dependencies": {
+    "bredele/looping": "^1.0.0"
   },
   "development": {},
   "license": "MIT",
