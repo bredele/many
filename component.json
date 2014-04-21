@@ -1,7 +1,7 @@
 {
   "name": "many",
   "repo": "bredele/many",
-  "description": "call a function one or many times",
+  "description": "call a function once or many times",
   "version": "0.1.0",
   "keywords": [],
   "dependencies": {

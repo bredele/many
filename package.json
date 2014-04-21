@@ -1,7 +1,7 @@
 {
   "name": "many",
   "version": "0.1.0",
-  "description": "call a function one or many times",
+  "description": "call a function oncee or many times",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
