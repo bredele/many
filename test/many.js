@@ -32,4 +32,20 @@ describe('basic', function() {
 		});
 	});
 
+	it('should call many times', function() {
+		var keys = [];
+		var values = [];
+		var fn = many(function(name, data) {
+			keys.push(name);
+			values.push(data);
+		});
+
+		fn({
+			'foo' : 'bar',
+			'beep' : 'boop'
+		});
+		assert.deepEqual(keys, ['foo', 'beep']);
+		assert.deepEqual(values, ['bar', 'boop']);
+	});
+
 });
