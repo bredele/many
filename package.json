@@ -1,6 +1,6 @@
 {
   "name": "many",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "call a function one or many times",
   "main": "index.js",
   "scripts": {
