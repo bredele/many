@@ -1,0 +1,15 @@
+{
+  "name": "many",
+  "repo": "bredele/many",
+  "description": "call a function one or many times",
+  "version": "0.0.0",
+  "keywords": [],
+  "dependencies": {
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

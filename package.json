@@ -1,0 +1,32 @@
+{
+  "name": "many",
+  "version": "0.0.0",
+  "description": "call a function one or many times",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bredele/many.git"
+  },
+  "keywords": [
+    "one",
+    "many",
+    "several",
+    "plural",
+    "multiple"
+  ],
+  "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/many/issues"
+  },
+  "homepage": "https://github.com/bredele/many",
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  },
+  "dependencies": {
+    "looping": "^1.0.0"
+  }
+}
