@@ -8,7 +8,25 @@ var loop = require('looping');
 
 
 /**
- * Expose many constructor.
+ * Expose many.
+ *
+ * Only works when the first argument of a function
+ * is a string.
+ *
+ * Examples:
+ *
+ *   var fn = many(function(name, data) {
+ *     // do something
+ *   });
+ *   
+ *   fn('bar', {});
+ *   fn({
+ *     'foo' : {},
+ *     'beep' : {}
+ *   });
+ *
+ * @param {Function}
+ * @return {Function} 
  * @api public
  */
 
