@@ -48,7 +48,11 @@ describe('basic', function() {
 		assert.deepEqual(values, ['bar', 'boop']);
 	});
 
-	it('should keep the context', function(done) {
+});
+
+describe('context', function() {
+
+	it('should keep the context when called once', function(done) {
 		var scope = {
 			name: 'olivier'
 		};
@@ -57,6 +61,19 @@ describe('basic', function() {
 		});
 
 		scope.fn('foo');
+	});
+
+	it('should keep the context when called multiple times', function(done) {
+		var scope = {
+			name: 'olivier'
+		};
+		scope.fn = many(function() {
+			if(this.name === 'olivier') done();
+		});
+
+		scope.fn({
+			'foo' : {}
+		});
 	});
 
 });
