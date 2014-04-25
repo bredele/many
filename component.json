@@ -3,7 +3,7 @@
   "repo": "bredele/many",
   "description": "call a function once or many times",
   "version": "0.3.3",
-  "keywords": [],
+  "keywords": ["once", "function", "arguments"],
   "dependencies": {
     "bredele/looping": "^1.1.1"
   },
