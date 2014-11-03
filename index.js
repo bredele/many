@@ -33,7 +33,7 @@ var loop = require('looping');
 module.exports = function(fn) {
   var many = function(str, obj) {
     if(typeof str === 'object') loop(str, many, this);
-    else fn.call(this, str, obj);
+    else fn.apply(this, arguments);
     return this;
   };
   return many;
