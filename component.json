@@ -2,8 +2,12 @@
   "name": "many",
   "repo": "bredele/many",
   "description": "call a function once or many times",
-  "version": "0.3.4",
-  "keywords": ["once", "function", "arguments"],
+  "version": "1.0.0",
+  "keywords": [
+    "once",
+    "function",
+    "arguments"
+  ],
   "dependencies": {
     "bredele/looping": "^1.1.1"
   },
