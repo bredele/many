@@ -9,7 +9,7 @@
     "arguments"
   ],
   "dependencies": {
-    "bredele/looping": "^1.1.1"
+    "bredele/looping": "^1.1.2"
   },
   "development": {},
   "license": "MIT",
